@@ -11,9 +11,10 @@
     <p class="headerText"> US Dollar Currency Conversion </p>
 
 
-    <label>US Dollars:</label><input type="text" name="dollars"><br>
-    <label>Currency:</label>
-    <select id="currency">e
+    <label for="dollars">US Dollars:</label><input type="text" name="dollars" id="dollars"><br>
+
+    <label for="currency">Currency:</label>
+    <select id="currency">
         <option value="0.61" selected="selected">British Pound</option>
         <option value="0.74">Euro</option>
         <option value="11.73">Estonian Kroon</option>
@@ -21,7 +22,7 @@
         <option value="6.06">Chinese Yuan</option>
     </select>
     <br>
-    <label>Exchange:</label><input type="text" name="exchange"><br>
+    <label for="exchange">Exchange:</label><input type="text" name="exchange" id="exchange"><br>
     <label></label><input type="button" onclick="convert()" value="Convert"><br>
 
     <div id="bill_img"></div>
